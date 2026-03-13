@@ -18,4 +18,4 @@ RUN npm run dev
 EXPOSE 3000
 
 # 7. Command to run the app
-CMD ["npm", "start"]
+CMD ["npm", "start","dev"]
