@@ -1,0 +1,139 @@
+[
+    {
+        "id": "school-201",
+        "title": "vocab 3.2",
+        "isPinned": false,
+        "dueDate": "2026-03-09",
+        "dueTime": "07:00",
+        "details": "Vocabulary task for German lesson.",
+        "references": [],
+        "subject": "German",
+        "priority": "medium"
+    },
+    {
+        "id": "school-202",
+        "title": "Y9 Revision",
+        "isPinned": false,
+        "dueDate": "2026-03-09",
+        "dueTime": "08:00",
+        "details": "Ensure you consolidate this week's learning by going over the PowerPoints and checking your class notes. If absent, catch up on Lessons 14 and 15.",
+        "references": [],
+        "subject": "English",
+        "priority": "medium"
+    },
+    {
+        "id": "school-203",
+        "title": "Spheres and Cones",
+        "isPinned": false,
+        "dueDate": "2026-03-09",
+        "dueTime": "09:00",
+        "details": "Complete the assignment in Dr Frost on this topic. This will be followed by the usual written assessment in Monday lesson.",
+        "references": [],
+        "subject": "Maths",
+        "priority": "high"
+    },
+    {
+        "id": "school-204",
+        "title": "Y9 Theory Homework #2",
+        "isPinned": false,
+        "dueDate": "2026-03-10",
+        "dueTime": "11:30",
+        "details": "Theory homework assignment.",
+        "references": [],
+        "subject": "Music",
+        "priority": "medium"
+    },
+    {
+        "id": "school-205",
+        "title": "Living World - TRF Tropical Rainforest Loss",
+        "isPinned": false,
+        "dueDate": "2026-03-10",
+        "dueTime": "23:59",
+        "details": "Geography homework on tropical rainforest loss.",
+        "references": [],
+        "subject": "Geography",
+        "priority": "medium"
+    },
+    {
+        "id": "school-206",
+        "title": "ALE - Database Completion and Hand-in",
+        "isPinned": true,
+        "dueDate": "2026-03-10",
+        "dueTime": "23:59",
+        "details": "Create an independently-built database. Must include at least 4 data types, minimum 12 records with images, a styled form suitable for a workplace, a report fitting one A4 page, and at least one query using complex criteria (AND/OR).",
+        "references": [],
+        "subject": "Computing",
+        "priority": "high"
+    },
+    {
+        "id": "school-207",
+        "title": "5.1 J'y retourne",
+        "isPinned": false,
+        "dueDate": "2026-03-11",
+        "dueTime": "08:00",
+        "details": "Learn the vocab copied for a test. Complete WBK activities 5.1.",
+        "references": [],
+        "subject": "French",
+        "priority": "medium"
+    },
+    {
+        "id": "school-208",
+        "title": "HW Vocabulary learning",
+        "isPinned": false,
+        "dueDate": "2026-03-12",
+        "dueTime": "09:00",
+        "details": "Spend 25 minutes learning vocabulary on Suburani online. Aim for 100% Chapters 1-16.",
+        "references": [],
+        "subject": "Latin",
+        "priority": "low"
+    },
+    {
+        "id": "school-209",
+        "title": "Practical 2 - Curry",
+        "isPinned": false,
+        "dueDate": "2026-03-13",
+        "dueTime": "07:00",
+        "details": "Food technology practical. Bring apron and container to take food home. Recipe: spinach and potatoes curry.",
+        "references": [],
+        "subject": "Food Technology",
+        "priority": "medium"
+    },
+    {
+        "id": "school-210",
+        "title": "Romeo and Juliet assessment",
+        "isPinned": false,
+        "dueDate": "2026-03-17",
+        "dueTime": "08:00",
+        "details": "Year 9 Romeo and Juliet assessment. Review class notes and check the CRE document for expectations.",
+        "references": [
+            {
+                "label": "Romeo and Juliet Y9 CRE Student Version",
+                "url": ""
+            }
+        ],
+        "subject": "English",
+        "priority": "high"
+    },
+    {
+        "id": "school-211",
+        "title": "END OF UNIT Test - L, R, T and W",
+        "isPinned": false,
+        "dueDate": "2026-03-18",
+        "dueTime": "07:00",
+        "details": "German end of unit test covering Listening, Reading, Translation and Writing.",
+        "references": [],
+        "subject": "German",
+        "priority": "high"
+    },
+    {
+        "id": "school-212",
+        "title": "Translation Bee STAGE 2",
+        "isPinned": false,
+        "dueDate": "2026-03-26",
+        "dueTime": "12:30",
+        "details": "Come to ML4 at 12:45 for the competition. Must know present and future tense sentences. Best two students progress to the regional finals.",
+        "references": [],
+        "subject": "German",
+        "priority": "medium"
+    }
+]

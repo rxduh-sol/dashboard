@@ -1,0 +1,14 @@
+[
+    {
+        "id": "general-01",
+        "title": "Work On Novark",
+        "isPinned": false,
+        "dueDate": "2026-03-08",
+        "dueTime": "23.59",
+        "details": "Please make mobile version!",
+        "references": [],
+        "subject": "Novark",
+        "priority": "medium",
+        "status": "todo"
+    }
+]
