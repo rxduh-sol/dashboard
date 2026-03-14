@@ -28,7 +28,7 @@ export default function Page() {
   const [newTime, setNewTime] = useState('23:59');
   const [newType, setNewType] = useState<'home' | 'school'>('home');
 
-  const API_BASE = "http://192.168.0.177:8000";
+  const API_BASE = "http://100.124.191.39:8000";
 
   useEffect(() => {
     const loadTasks = async () => {
