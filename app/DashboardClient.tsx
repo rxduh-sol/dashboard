@@ -126,7 +126,16 @@ export default function Page({ initialTasks = [] }: { initialTasks?: Task[] }) {
     let tasks = activeTab === 'school' ? schoolTasks : generalTasks;
     tasks = tasks.filter(t => filterTab === 'completed' ? t.status === 'completed' : t.status !== 'completed');
     if (searchQuery.trim()) tasks = tasks.filter(t => t.title.toLowerCase().includes(searchQuery.toLowerCase()));
-    const filtered = viewDate ? tasks.filter(t => new Date(t.dueDate).toDateString() === viewDate.toDateString()) : tasks;
+    
+    // Updated Logic: Selection shows tasks from that date onwards
+    const filtered = viewDate ? tasks.filter(t => {
+        const taskDate = new Date(t.dueDate);
+        const compareDate = new Date(viewDate);
+        taskDate.setHours(0, 0, 0, 0);
+        compareDate.setHours(0, 0, 0, 0);
+        return taskDate.getTime() >= compareDate.getTime();
+    }) : tasks;
+
     const groups: Record<string, Task[]> = {};
     filtered.sort((a,b) => a.dueDate.localeCompare(b.dueDate)).forEach(task => {
       const label = new Date(task.dueDate).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
@@ -181,7 +190,6 @@ export default function Page({ initialTasks = [] }: { initialTasks?: Task[] }) {
             </div>
           </div>
 
-          {/* RIGHT SIDE TOOLS - OPTIMIZED TEXT SIZES & SEARCH LENGTH */}
           <div className="flex items-center gap-4 h-[84px] flex-grow justify-end">
             {/* Daily Routine Widget */}
             <div className="relative h-full">
@@ -225,7 +233,7 @@ export default function Page({ initialTasks = [] }: { initialTasks?: Task[] }) {
                 </AnimatePresence>
             </div>
 
-            {/* Search Box - Reduced length to prevent weather overlap */}
+            {/* Search Box */}
             <div className="h-full bg-white/40 backdrop-blur-3xl border border-white/60 rounded-[32px] px-6 flex items-center gap-4 shadow-xl w-[200px]">
                 <Search size={18} className="text-zinc-400" />
                 <input 
@@ -235,7 +243,7 @@ export default function Page({ initialTasks = [] }: { initialTasks?: Task[] }) {
                 />
             </div>
 
-            {/* Weather Button - Increased text size for visibility */}
+            {/* Weather Button */}
             <motion.button onClick={() => setIsWeatherOpen(true)} whileHover={{ scale: 1.05 }} className="h-full bg-white/40 backdrop-blur-3xl border border-white/60 rounded-[32px] px-10 flex items-center gap-5 shadow-xl">
                 <Cloud size={24} className="text-zinc-900" />
                 <div className="flex flex-col items-start text-zinc-900">
