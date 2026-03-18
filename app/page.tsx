@@ -7,7 +7,7 @@ export default async function Page() {
 
   try {
     // Internal Docker bridge fetch - This happens on the server!
-    const res = await fetch('http://192.168.0.177:8000/tasks', { 
+    const res = await fetch('http://192.168.0.10:8000/tasks', { 
       cache: 'no-store' 
     });
     
