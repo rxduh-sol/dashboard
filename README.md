@@ -47,5 +47,6 @@ Everything stays local to my network, and I'm not storing any school credentials
 ### How to run it
 1. Clone the repo
 2. Run `npm install`
-3. Set up the `.env.local` with the local IP of the FastAPI backend
+3. Future Addition - You will need to set up your backends IP in the files but I will add an easier way to do it soon
 4. Start it with `npm run dev`
+5. Start the .py backend file and youre good to go
