@@ -7,7 +7,12 @@ I got tired of jumping between different apps, so I made this to keep everything
 ---
 
 ### Dashboard Preview
-[INSERT A SCREENSHOT OF YOUR DASHBOARD HERE]
+<img width="1326" height="767" alt="image" src="https://github.com/user-attachments/assets/9d36986c-5eca-4ec9-aabb-1081e22bf791" />
+<img width="542" height="608" alt="image" src="https://github.com/user-attachments/assets/948f5934-b70d-4d2b-b0ea-ee363a7718fd" />
+<img width="1209" height="712" alt="image" src="https://github.com/user-attachments/assets/43343aa4-23af-4b60-83e0-691afe2643dc" />
+<img width="1209" height="712" alt="image" src="https://github.com/user-attachments/assets/004d1d09-f0c6-4f22-8791-5e26c2b0caba" />
+
+
 
 ---
 
